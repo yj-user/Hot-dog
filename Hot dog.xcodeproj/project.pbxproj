@@ -13,6 +13,7 @@
 		2BE7AB5E2641A2B300A92300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7AB5C2641A2B300A92300 /* Main.storyboard */; };
 		2BE7AB602641A2B400A92300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7AB5F2641A2B400A92300 /* Assets.xcassets */; };
 		2BE7AB632641A2B400A92300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE7AB612641A2B400A92300 /* LaunchScreen.storyboard */; };
+		2BE7AB6C2641B62B00A92300 /* YOLOv3TinyFP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2BE7AB6B2641B62B00A92300 /* YOLOv3TinyFP16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2BE7AB5F2641A2B400A92300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE7AB622641A2B400A92300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE7AB642641A2B400A92300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE7AB6B2641B62B00A92300 /* YOLOv3TinyFP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3TinyFP16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2BE7AB5F2641A2B400A92300 /* Assets.xcassets */,
 				2BE7AB612641A2B400A92300 /* LaunchScreen.storyboard */,
 				2BE7AB642641A2B400A92300 /* Info.plist */,
+				2BE7AB6B2641B62B00A92300 /* YOLOv3TinyFP16.mlmodel */,
 			);
 			path = "Hot dog";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				2BE7AB5B2641A2B300A92300 /* ViewController.swift in Sources */,
 				2BE7AB572641A2B300A92300 /* AppDelegate.swift in Sources */,
 				2BE7AB592641A2B300A92300 /* SceneDelegate.swift in Sources */,
+				2BE7AB6C2641B62B00A92300 /* YOLOv3TinyFP16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
